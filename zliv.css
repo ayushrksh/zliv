@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: "Oswald", sans-serif; */
+    font-family: "gilroy";
+
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+
+  
+#main{
+    width: 100%;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 70px;
+    padding-left: 40px;
+    padding-right: 40px;
+    /* position: fixed; */
+    
+}
+#navleft{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
+}
+
+#navleft #navbadge{
+    padding: 6px 15px;
+    background-color: #f7ebe3;
+    border-radius: 100px;
+    font-size: 14px;
+}
+#navright{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+#navright a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 15px;
+
+}
+#navright button{
+    text-transform: capitalize;
+    padding: 6px 10px;
+    border-radius: 100px;
+    border: 1px solid #777;
+    background-color: transparent;
+}
+#mainheading{
+    padding: 0px 80px;
+    margin-top: 100px;
+}
+#mainheading h1{
+    font-weight: 300;
+    font-size: 90px;
+    letter-spacing: -4px;
+    text-transform: capitalize;
+    line-height: 1;
+}
+#mainheading p{
+    width: 35%;
+    margin-top: 30px;
+}
+#mainheading button{
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border-radius: 100px;
+    border: none;
+    margin-top: 20px;
+}
+#brandslogo{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+#categories{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-top: 120px;
+    padding: 0px 50px;
+}
+.category{
+    width: 24%;
+    height: 200px;
+    padding: 30px 20px;
+    background-color: rgb(223, 223, 223);
+}
+.category h3{
+    font-size: 20px;
+    font-weight: 400;
+}
+.category p{
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+.category a{
+    color: black;
+    font-weight: 500;
+    font-size: 13px;
+    text-decoration: none;
+    border-bottom: 1px solid #000;
+}
+#selected{
+    margin-top: 100px;
+}
+#selected #heading{
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 50px;
+    width: 100%;
+    align-items: center;
+}
+#heading h1{
+    font-weight: 400;
+    font-size: 40px;
+}
+#heading button{
+    text-transform: capitalize;
+    padding: 8px 16px;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 100px;
+}
+.firstbox{
+    padding: 0 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.box{
+    width: 49%;
+}
+
+.imagebox{
+    width: 100%;
+    height: 600px;
+    background-image: url(https://assets-global.website-files.com/63c3f1995d4c354236c944de/63c6b981e34f347cacdc73b6_project-01-thumb.webp);
+    background-position: center;
+    background-size: cover;
+}
+
+.imagebox2{
+    width: 100%;
+    height: 600px;
+    background-image: url(https://assets-global.website-files.com/63c3f1995d4c354236c944de/63c6b96d86c0c985079d8d60_project-02-thumb.webp);
+    background-position: center;
+    background-size: cover;
+}
+.titlebox{
+    width: 100%;
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.titlebox h3{
+    font-weight: 400;
+    font-size: 26px;
+}
+.titlebox button{
+    padding: 8px 10px;
+    border-radius: 100px;
+    border: 1px solid #777;
+    background-color: transparent;
+}
+.secondbox{
+    margin-top: 40px;
+    padding: 0 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.imagebox3{
+    width: 100%;
+    background-image: url(https://assets-global.website-files.com/63c3f1995d4c354236c944de/63c6b953a2c1a5706f63bbe1_project-03-thumb.webp);
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+}
+.imagebox4{
+    width: 100%;
+    background-image: url(https://assets-global.website-files.com/63c3f1995d4c354236c944de/63c6b943f334e17d7007a0ea_project-04-thumb.webp);
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+}
+
+
+
